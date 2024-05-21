@@ -1,0 +1,113 @@
+.filter-container {
+    position: relative;
+    display: inline-block;
+    justify-content: right;
+}
+
+body {
+    background-color: rgb(1, 5, 45);
+}
+
+.filter-icon {
+    cursor: pointer;
+    color: wheat;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+#name,
+#age,
+#phone,
+#email {
+    margin-bottom: 14px;
+    /* margin-left: 10px; */
+}
+
+.title {
+    text-align: center;
+    color: wheat;
+}
+
+#crudForm {
+    padding: 1rem 4rem;
+
+}
+
+.show {
+    display: block;
+}
+
+table {
+    width: 100%;
+    border-collapse:separate;
+    margin-top: 20px;
+
+}
+
+th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    color: black;
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even),
+table.list thread>tr {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    background-color: #534f4f;
+    color: #ffff;
+}
+
+tr:nth-child(odd),
+table.list thread>tr {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    color: wheat;
+}
+
+input {
+    width: 40%;
+    padding: .5rem;
+}
+
+label {
+    color: wheat;
+    display: block;
+}
+
+
+button:hover {
+   color: rgb(46, 19, 223);
+   cursor: pointer;
+}
+
+button {
+    background-color: beige;
+    padding: 0.6rem 1.2rem;
+    border-radius: 10px;
+    margin-left: 10px;
+    color: black;
+    border: none;
+}
